@@ -1,5 +1,5 @@
 public class SingletonClass {
-
+    //cache memory will not be used in volatile variable
     private static volatile SingletonClass instance = null;
 
     private SingletonClass() {
