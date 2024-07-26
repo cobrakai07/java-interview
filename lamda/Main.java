@@ -63,3 +63,5 @@ public class Main {
 // A functional interface in Java is an interface that contains exactly one abstract method. These interfaces are also known as Single Abstract Method (SAM) interfaces. Functional interfaces can have any number of default or static methods, but they must have only one abstract method. This single abstract method is what allows them to be used as the target for lambda expressions and method references.
 
 // Functional interfaces are a key component of functional programming in Java, especially since the introduction of lambda expressions in Java 8. They provide a way to treat functionality as a method argument or to pass a block of code as data.
+
+//u cannot have variables in functional interface, it must be final or effectively final
